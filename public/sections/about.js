@@ -12,16 +12,18 @@ export default function About() {
         <h1>Hassan Bazzi</h1>
         <Typewriter>Engineering - Product - Fullfillment Coach</Typewriter>
         <p>
-          Engineering leader with 15+ years of experience. Hassan has built
-          products in a wide variety of spectrums ranging from entertainment to
-          finance. Hassan is obsessed with building workplaces where dreamers
-          can strive. He also has deep hands-on experience in all pieces of
-          software engineering. Hence, Hassan can build and lead projects that
-          range from networking, distributed cloud, back-end, and front-end
-          development.
+          I'm a people-oriented engineering leader with 15+ years of experience
+          and a deep compassion for human beings. Experienced in building
+          products and engineering teams in a wide variety of spectrums, and
+          sustaining these teams overtime with a strong focus on personal
+          development and coaching. My leadership style focuses on empathy and
+          compassion and sits on a decade of being a senior engineer myself.
         </p>
         <p>
-          Hassan's latest focus has been on{"  "}
+          Expert in React(Native), GraphQL, and server / user land performance.
+        </p>
+        <p>
+          My latest focus has been on{"  "}
           <a
             href="https://medium.com/@habazzi/what-the-hell-do-we-want-in-life-anyways-b6456bd82f3d"
             rel="noopener noreferrer"
