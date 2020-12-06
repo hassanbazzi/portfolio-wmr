@@ -5,7 +5,7 @@ export default function About() {
     <div class={styles.aboutContainer}>
       <div class={styles.picture}>
         <div class={styles.imgContainer}>
-          <img alt="Portrait" src="/assets/portrait.jpg" />
+          <img alt="Portrait" src="/images/portrait.jpg" />
         </div>
       </div>
       <div class={styles.description}>
@@ -24,7 +24,7 @@ export default function About() {
           Hassan's latest focus has been on{" "}
           <a
             href="https://medium.com/@habazzi/what-the-hell-do-we-want-in-life-anyways-b6456bd82f3d"
-            rel="noopener"
+            rel="noopener noreferrer"
             target="_blank"
           >
             helping others figure out their dreams.
