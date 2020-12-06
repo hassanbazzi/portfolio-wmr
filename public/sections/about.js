@@ -21,7 +21,7 @@ export default function About() {
           development.
         </p>
         <p>
-          Hassan's latest focus has been on{" "}
+          Hassan's latest focus has been on{"  "}
           <a
             href="https://medium.com/@habazzi/what-the-hell-do-we-want-in-life-anyways-b6456bd82f3d"
             rel="noopener noreferrer"
