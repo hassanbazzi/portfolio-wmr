@@ -1,0 +1,11 @@
+.contactContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  & > div {
+    flex: 1;
+  }
+  @media all and (max-width: 768px) {
+    flex-direction: column;
+  }
+}

@@ -2,6 +2,8 @@ import { Component } from "preact";
 import TextField from "../components/TextField";
 import Button from "../components/Button";
 import ReCaptcha from "preact-google-recaptcha";
+import Blog from "./blog";
+import styles from "./contact.module.css";
 
 export default class Contact extends Component {
   state = {
@@ -72,35 +74,44 @@ export default class Contact extends Component {
 
   form() {
     return (
-      <div>
-        <form name="contact" netlify netlify-honeypot="bot-field" hidden>
-          <input type="text" name="name" hidden />
-          <input type="email" name="email" hidden />
-          <textarea name="message" hidden />
-        </form>
-        <h3>Feel free to drop me a line:</h3>
-        <form name="contact" onSubmit={this.submit}>
-          <input type="hidden" name="form-name" value="contact" />
-          <TextField label="Your name" name="name" onKeyUp={this.handleInput} />
-          <TextField
-            label="Your email"
-            type="email"
-            name="email"
-            onKeyUp={this.handleInput}
-          />
-          <TextField
-            label="Your message"
-            name="message"
-            onKeyUp={this.handleInput}
-          />
-          {this.state.message && (
-            <ReCaptcha
-              sitekey="6LduHaMUAAAAAH52aU2TwF08pjJECO8nR8L0pml-"
-              onChange={this.onChange}
+      <div class={styles.contactContainer}>
+        <div>
+          <Blog />
+        </div>
+        <div>
+          <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+            <input type="text" name="name" hidden />
+            <input type="email" name="email" hidden />
+            <textarea name="message" hidden />
+          </form>
+          <h3>Feel free to drop me a line:</h3>
+          <form name="contact" onSubmit={this.submit}>
+            <input type="hidden" name="form-name" value="contact" />
+            <TextField
+              label="Your name"
+              name="name"
+              onKeyUp={this.handleInput}
             />
-          )}
-          <Button>Send</Button>
-        </form>
+            <TextField
+              label="Your email"
+              type="email"
+              name="email"
+              onKeyUp={this.handleInput}
+            />
+            <TextField
+              label="Your message"
+              name="message"
+              onKeyUp={this.handleInput}
+            />
+            {this.state.message && (
+              <ReCaptcha
+                sitekey="6LduHaMUAAAAAH52aU2TwF08pjJECO8nR8L0pml-"
+                onChange={this.onChange}
+              />
+            )}
+            <Button>Send</Button>
+          </form>
+        </div>
       </div>
     );
   }

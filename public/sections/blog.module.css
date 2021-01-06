@@ -1,0 +1,24 @@
+.blogContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: masonry;
+}
+.posts {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-bottom: 1rem;
+}
+.story {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+  margin: 0;
+}
+.thumbnail {
+  width: 240px;
+  height: 160px;
+  background-size: cover;
+  margin-right: 1rem;
+}
