@@ -5,31 +5,35 @@ export default function About() {
     <div class={styles.aboutContainer}>
       <div class={styles.picture}>
         <div class={styles.imgContainer}>
-          <img alt="Portrait" src="/images/portrait.jpg" />
+          <img alt="Portrait" src="/images/portrait-new.jpg" />
         </div>
       </div>
       <div class={styles.description}>
         <h1>Hassan Bazzi</h1>
-        <Typewriter>Engineering - Product - Fullfillment Coach</Typewriter>
+        <Typewriter>
+          People Person | Entrepreneur | Software Engineer
+        </Typewriter>
         <p>
-          I'm a people-oriented engineering leader with 15+ years of experience
-          and a deep compassion for human beings. Experienced in building
-          products and engineering teams in a wide variety of spectrums, and
-          sustaining these teams overtime with a strong focus on personal
-          development and coaching. My leadership style focuses on empathy and
-          compassion and sits on a decade of being a senior engineer myself.
+          I'm a people-oriented engineer and leader with 2 decades of
+          development and leadership experience. I love to build products that
+          matter and engineering teams that can do a lot with a little. My
+          leadership style focuses on empathy and compassion while being a
+          hands-on developer myself. Passionate about creating environments
+          where individuals can do their best work and embrace their
+          self-expression.
         </p>
         <p>
-          Expert in React(Native), GraphQL, and server / user land performance.
+          Expert in all things JavaScript, React, Node.JS, CSS, React Native,
+          Backend Architecture, and building high-performing happy engineering
+          teams.
         </p>
         <p>
-          My latest focus has been on{"  "}
           <a
-            href="https://medium.com/@habazzi/what-the-hell-do-we-want-in-life-anyways-b6456bd82f3d"
+            href="https://medium.com/@habazzi/"
             rel="noopener noreferrer"
             target="_blank"
           >
-            helping others figure out their dreams.
+            I write sometimes
           </a>
         </p>
       </div>

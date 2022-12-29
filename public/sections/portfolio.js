@@ -2,9 +2,16 @@ import Cards from "../components/Cards";
 
 const items = [
   {
+    name: "Nuna",
+    logo: null,
+    position: "Cofounder, CEO, & Lead Engineer",
+    summary:
+      "Building an AI-powered mental health product from the ground up all the way from the team to the nitty gritty code.",
+  },
+  {
     name: "Kitab Sawti",
     logo: null,
-    position: "CTO",
+    position: "Chief Technology Officer",
     summary:
       "Responsible for strategy, development, architecture, and organizational needs. Building a kick-ass happy and fullfilled remote team.",
   },
