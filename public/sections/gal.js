@@ -8,7 +8,7 @@ export default function About() {
     <div class={styles.galContainer}>
       {Array.from({ length: max }, (_, i) => i + 1).map((i) => {
         const url = `${baseURL}${leftPad(i,5,0)}`;
-        return (<a href={`${url}.jpg`} target="_blank">
+        return (<a href={`${url}.jpg`} download>
           <img src={`${url}-300x200.jpg`} alt="Hassan bi3a2id" />
           </a>)
 })}
